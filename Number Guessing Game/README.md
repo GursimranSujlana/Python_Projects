@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Guessing Game</title>
 </head>
 <body>
 
@@ -21,15 +20,28 @@
 
 <h2>Screenshots</h2>
 
-<p>Screenshots of the game in action here.</p>
+<p>Below are some screenshots of the game:</p>
 
 <img src="screenshots/start.png" alt="Starting Screen">
+<p>This is the starting screen of the game.</p>
+
 <img src="screenshots/too high.png" alt="Too High Hint">
+<p>This is a hint indicating that the guessed number is too high.</p>
+
 <img src="screenshots/too low.png" alt="Too Low Hint">
+<p>This is a hint indicating that the guessed number is too low.</p>
+
 <img src="screenshots/reset.png" alt="Reset">
+<p>This is the reset button that allows the player to start a new game.</p>
+
 <img src="screenshots/invalid input.png" alt="Invalid Input">
+<p>This is an example of an error message displayed when the user enters invalid input.</p>
+
 <img src="screenshots/invalid.png" alt="Invalid Output">
+<p>This is an example of an error message displayed when the user's guess is incorrect.</p>
+
 <img src="screenshots/correct guess.png" alt="Correct Guess">
+<p>This is a message displayed when the user correctly guesses the number.</p>
 
 <h2>Getting Started</h2>
 
