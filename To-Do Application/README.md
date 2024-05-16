@@ -33,15 +33,15 @@ python todo.py
 - Select the priority of the task from the dropdown menu.
 - Choose a due date using the date picker.
 - Click the "Add Task" button to add the task to the list.
-![Add Task](<screenshots/Screenshot 2024-05-16 at 11.01.47 AM.png>)
+![Add Task](<screenshots/Add Task.png>)
 
 - To mark a task as completed, select it from the list and click the "Mark Completed" button.
-![Mark Completed](<screenshots/Screenshot 2024-05-16 at 11.04.39 AM.png>)
+![Mark Completed](<screenshots/Completed Task.png>)
 
 - To delete a task, select it from the list and click the "Delete Task" button.
 - To download the task list as a text file, click the "Download List" button.
-![Download List](<screenshots/Screenshot 2024-05-16 at 11.05.02 AM.png>)
-![Txt file](<screenshots/Screenshot 2024-05-16 at 11.05.20 AM.png>)
+![Download List](<screenshots/Save Txt File.png>)
+![Txt file](<screenshots/Txt File view.png>)
 
 ## Contributing
 
