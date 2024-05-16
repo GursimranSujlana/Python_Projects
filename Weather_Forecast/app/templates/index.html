@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather Forecast</h1>
+        </div>
+        <div class="weather-info">
+            <h2>Current Weather</h2>
+            <p><strong>Temperature:</strong> {{ temperature }}°C (Feels like: {{ apparent_temperature }}°C)</p>
+            <p><strong>Description:</strong> {{ description }}</p>
+            <p><strong>Precipitation Probability:</strong> {{ precipitation_probability }}%</p>
+            <p><strong>Wind Speed:</strong> {{ wind_speed }} m/s, <strong>Wind Direction:</strong> {{ wind_direction }}</p>
+            <p><strong>Humidity:</strong> {{ humidity }}%</p>
+            <p><strong>Visibility:</strong> {{ visibility }} km</p>
+            <p><strong>Sunrise Time:</strong> {{ sunrise_time }}</p>
+            <p><strong>Sunset Time:</strong> {{ sunset_time }}</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
