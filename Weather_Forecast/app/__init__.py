@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Fetch real-time weather data from an API
-    api_key = 'e5uu7pkefXJdWdk6A8vPGYR2GWfF4mxg'  # Replace with your actual API key
+    api_key = 'api_key'  # Replace with your actual API key
     location = '42.3478,-71.0466'  # Example location
     api_url = f'https://api.tomorrow.io/v4/weather/forecast?location={location}&apikey={api_key}'
     
