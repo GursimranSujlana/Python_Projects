@@ -32,7 +32,7 @@ def index():
                            visibility=visibility, sunrise_time=sunrise_time, sunset_time=sunset_time)
 
 def fetch_weather_data(location):
-    api_key = 'e5uu7pkefXJdWdk6A8vPGYR2GWfF4mxg'  # Replace with your Tomorrow.io API key
+    api_key = 'api'  # Replace with your Tomorrow.io API key
     api_url = f'https://api.tomorrow.io/v4/weather/forecast?location={location}&apikey={api_key}'
     
     response = requests.get(api_url)
